@@ -1,0 +1,556 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- file links -->
+    <link rel="stylesheet" href="../css/all.min.css">
+    <link rel="stylesheet" href="../css/fontawesome.min.css">
+    <link rel="stylesheet" href="../css/uikit.min.css">
+    <link rel="stylesheet" href="../css/utalities.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Paytone+One&display=swap" rel="stylesheet">
+    <title>servirti</title>
+</head>
+<body>
+    <!-- Start header section -->
+    <header class="img__background">
+        <!-- navbar -->
+        <nav class="uk-container uk-margin-auto" uk-navbar>
+            <div class="uk-navbar-left">
+                <ul class="uk-navbar-nav">
+                    <li><a class="uk-text-bolder" href="#">Servirti</a></li>
+                </ul>
+            </div>
+            <div class="uk-navbar-right uk-hidden">
+                <ul class="uk-navbar-nav">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Our survice</a></li>
+                    <li><a href="#">About us</a></li>
+                </ul>
+                <button class="uk-button uk-button-primary">Contact us</button>
+            </div>
+        </nav>
+        <!-- main header -->
+        <div class="uk-child-width-1-1@s uk-child-width-1-2@m uk-container uk-margin-auto" uk-grid>
+            <div style="align-self: end;">
+                <h1 class="header__title">Electrical Services</h1>
+                <p class="dark">
+                    We work to ensure people comfort at their home, and to provide
+                    the best user experience that you will love.
+                </p>
+                <div class="input__header__search uk-margin-large-top uk-margin-large-bottom">
+                    <button class="uk-button uk-nav-center uk-width-1-2 ">contact us</button>
+                </div>
+                <div class="header__nums uk-flex uk-flex-between uk-text-center uk-margin-left">
+                    <div class="num">
+                        <h3 class="dark uk-text-bold">+120</h3>
+                        <p class="dark">Available Electrician</p>
+                    </div>
+                    <div class="num">
+                        <h3 class="dark uk-text-bold">+50k</h3>
+                        <p class="dark">Electrical Work Completed</p>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="uk-width-1-1" src="../img/staff3.jpeg" alt="" >
+            </div>
+        </div>
+    </header>
+    <!-- End header section -->
+    <!-- Start Main section -->
+    <main>
+        <!-- hand -->
+        <div class="main__handy uk-container">
+            <div class="uk-flex" style="margin: 50px 0;">
+                <h2 style="align-self: end; opacity: .2;"><i class="fa-solid fa-message"></i></h2>
+                <h2 class="uk-text-bolder" >Our Handymen</h2>
+            </div>
+            <form class="uk-flex uk-flex-around uk-width-3-4@s uk-width-1-1 uk-border-pill uk-margin-auto" style="background-color: #0E1930;">           
+                <div class="uk-margin">
+                    <div uk-form-custom="target: > * > span:first-child">
+                        <select id="sOne">
+                            <option selected>Location</option>
+                            <option value="a" >Option 01</option>
+                            <option value="b">Option 02</option>
+                            <option value="c">Option 03</option>
+                        </select>
+                        <button class="uk-button light" type="button" tabindex="-1">
+                            <span></span>
+                            <span uk-icon="icon: chevron-down"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="uk-margin">
+                    <div uk-form-custom="target: > * > span:first-child">
+                        <select id="sTwo">
+                            <option selected>sort by</option>
+                            <option value="1">Option 01</option>
+                            <option value="2">Option 02</option>
+                            <option value="3">Option 03</option>
+                            <option value="4">Option 04</option>
+                        </select>
+                        <button class="uk-button light" type="button" tabindex="-1">
+                            <span></span>
+                            <span uk-icon="icon: chevron-down"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class=" input__header__search uk-margin">
+                    <div uk-form-custom="target: > * > span:first-child">
+                        <button class="filter__sub uk-button">search <a href="" uk-icon="search"></a></button>
+                    </div>
+                </div>
+            </form>
+            <div class="cards__search uk-flex uk-flex-wrap uk-width-1-1 uk-width-1-3\@m uk-flex-center uk-flex-between@m"  uk-grid>
+                <div class="card__search" data-location="a" data-sort="1">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff2.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p><i class="fa-solid fa-bookmark"></i> Elctronic</p>
+                                <p>
+                                    <i class="fa-solid fa-star"></i> 
+                                    (232)
+                                    <i class="info__stars fa-solid fa-star"></i>
+                                    <i class="info__stars fa-solid fa-star"></i>
+                                    <i class="info__stars fa-solid fa-star"></i>
+                                </p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p><i class="fa-solid fa-location-dot"></i> location</p>
+                                <p><i class="fa-solid fa-calendar-days"></i> 3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search" data-location="b" data-sort="2">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search" data-location="c" data-sort="3">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff1.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search" data-location="b" data-sort="4">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff2.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search" data-location="c" data-sort="1">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff2.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search" data-location="a" data-sort="4">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search hide" data-location="b" data-sort="3">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search hide" data-location="a" data-sort="2">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff2.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search hide" data-location="c" data-sort="4">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff1.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search hide" data-location="b" data-sort="2">
+                    <div class="uk-flex uk-flex-between uk-text-left">
+                        <img src="../img/staff2.jpeg">
+                        <div class="info">
+                            <h4>Ahmed Ali</h4>
+                            <p>Elctronic</p>
+                            <p>(232)</p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="uk-flex uk-flex-between uk-text-left">
+                        <div class="info uk-margin-medium-right">
+                            <p>location</p>
+                            <p>3 monthes ago</p>
+                        </div>
+                        <div class="">
+                            <button class="uk-button button__dark">contact us</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search hide" data-location="a" data-sort="3">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="card__search hide" data-location="c" data-sort="1">
+                    <div class="uk-card uk-card-default uk-card-hover uk-card-body">
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <img src="../img/staff.jpeg">
+                            <div class="info">
+                                <h4>Ahmed Ali</h4>
+                                <p>Elctronic</p>
+                                <p>(232)</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="uk-flex uk-flex-between uk-text-left">
+                            <div class="info uk-margin-medium-right">
+                                <p>location</p>
+                                <p>3 monthes ago</p>
+                            </div>
+                            <div class="">
+                                <button class="uk-button button__dark">contact us</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="msg uk-hidden">
+                <div class="uk-container uk-text-center ">
+                    <h3 class="uk-text-danger"> Oops! Please select location and type </h3>
+                </div>
+            </div>
+            <div class="input__header__search uk-margin-large-top uk-margin-large-bottom uk-text-center">
+                    <button class="uk-button uk-nav-center uk-width-1-5">View more</button>
+            </div>
+        </div>
+        <!-- guide -->
+        <div class="main__guide">
+            <div class="uk-container">
+                <div class="uk-flex" style="margin: 50px 0;">
+                    <h2 style="align-self: end; opacity: .2;"><i class="fa-brands fa-youtube"></i></h2>
+                    <h2 class="uk-text-bolder" >Guide Videos</h2>
+                </div>
+                <div class="uk-flex uk-flex-between uk-flex-wrap">
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="video__section uk-width-3-4 uk-margin-auto">
+                            <video src="../videos/Wiring electric panel - Cool time lapse video.mp4" controls width="100%"></video>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="video__section uk-width-3-4 uk-margin-auto">
+                            <video src="../videos/Wiring electric panel - Cool time lapse video.mp4" controls width="100%"></video>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="video__section uk-width-3-4 uk-margin-auto">
+                            <video src="../videos/Wiring electric panel - Cool time lapse video.mp4" controls width="100%"></video>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="video__section uk-width-3-4 uk-margin-auto">
+                            <video src="../videos/Wiring electric panel - Cool time lapse video.mp4" controls width="100%"></video>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="video__section uk-width-3-4 uk-margin-auto">
+                            <video src="../videos/Wiring electric panel - Cool time lapse video.mp4" controls width="100%"></video>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    <div class="uk-width-1-3@m uk-width-1-2@s">
+                        <div class="video__section uk-width-3-4 uk-margin-auto">
+                            <video src="../videos/Wiring electric panel - Cool time lapse video.mp4" controls width="100%"></video>
+                            <p>Lorem ipsum dolor sit amet</p>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="input__header__search uk-margin-large-top uk-margin-large-bottom uk-text-center">
+                    <button class="uk-button uk-nav-center uk-width-1-5">View more</button>
+                </div>
+            </div>
+        </div>
+        <!-- shops -->
+        <div class="main__shops">
+            <div class="uk-container">
+                <div class="uk-flex" style="margin: 50px 0;">
+                    <h2 style="align-self: end; opacity: .2; transform: rotateZ(320deg);"><i class="fa-solid fa-shop"></i></h2>
+                    <h2 class="uk-text-bolder" >shops</h2>
+                </div>
+                <div class="uk-position-relative uk-visible-toggle uk-light" tabindex="-1" uk-slider="clsActivated: uk-transition-active; center: false">
+
+                    <ul class="uk-slider-items uk-grid">
+                        <li class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-panel">
+                                <img src="../img/shop1.jpeg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-between uk-transition-slide-bottom ">
+                                    <p class="uk-margin-remove uk-text-bolder dark">Lorem ipsum.</p>
+                                    <p class="uk-margin-remove "><a href="https://goo.gl/maps/HgptQMbC7L5jPxuB7" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-panel">
+                                <img src="../img/shop1.jpeg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-between uk-transition-slide-bottom ">
+                                    <p class="uk-margin-remove uk-text-bolder dark">Lorem ipsum.</p>
+                                    <p class="uk-margin-remove "><a href="https://goo.gl/maps/HgptQMbC7L5jPxuB7" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-panel">
+                                <img src="../img/shop1.jpeg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-between uk-transition-slide-bottom ">
+                                    <p class="uk-margin-remove uk-text-bolder dark">Lorem ipsum.</p>
+                                    <p class="uk-margin-remove "><a href="https://goo.gl/maps/HgptQMbC7L5jPxuB7" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-panel">
+                                <img src="../img/shop1.jpeg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-between uk-transition-slide-bottom ">
+                                    <p class="uk-margin-remove uk-text-bolder dark">Lorem ipsum.</p>
+                                    <p class="uk-margin-remove "><a href="https://goo.gl/maps/HgptQMbC7L5jPxuB7" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-panel">
+                                <img src="../img/shop1.jpeg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-between uk-transition-slide-bottom ">
+                                    <p class="uk-margin-remove uk-text-bolder dark">Lorem ipsum.</p>
+                                    <p class="uk-margin-remove "><a href="https://goo.gl/maps/HgptQMbC7L5jPxuB7" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="uk-width-1-2@s uk-width-1-1">
+                            <div class="uk-panel">
+                                <img src="../img/shop1.jpeg" width="1800" height="1200" alt="">
+                                <div class="uk-overlay uk-overlay-primary uk-position-bottom uk-flex uk-flex-between uk-transition-slide-bottom ">
+                                    <p class="uk-margin-remove uk-text-bolder dark">Lorem ipsum.</p>
+                                    <p class="uk-margin-remove "><a href="https://goo.gl/maps/HgptQMbC7L5jPxuB7" target="_blank"><i class="fa-solid fa-location-dot"></i> Location</a></p>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                
+                    <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+                    <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+                
+                </div>
+            </div>
+
+        </div>
+    </main>
+    <!-- End Main section -->
+    <!-- Start Footer section -->
+    <footer class="img__background uk-padding-large">
+        <div class="uk-child-width-1-2@s uk-child-width-1-4@m uk-flex uk-flex-center uk-container-large uk-margin-auto" uk-grid>
+            <div class="uk-navbar-left footer_link">
+                <ul class="uk-navbar-nav">
+                    <li><a class="uk-text-bolder" href="#">Servirti</a></li>
+                </ul>
+            </div>
+            <div class="footer__link">
+                <h3 class="dark uk-text-bolder">Quick links</h3>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+            </div>
+            <div class="footer__link">
+                <h3 class="dark uk-text-bolder">Quick links</h3>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+            </div>
+            <div class="footer__link">
+                <h3 class="dark uk-text-bolder">Quick links</h3>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+                <a href="">link</a>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer section -->
+    <!-- scripts file -->
+    <script src="../js/main.js"></script>
+    <script src="../js/uikit.min.js"></script>
+    <script src="../js/uikit-icons.min.js"></script>
+    <script src="../js/all.min.js"></script>
+    <script src="../js/fontawesome.min.js"></script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.4.0.js"></script>
+</body>
+</html>
