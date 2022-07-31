@@ -209,3 +209,7 @@ footer{
 .main__survice .uk-card{
     margin: 20px;
 }
+
+.main__contact .uk-grid>*{
+    padding: 0;
+}
