@@ -167,3 +167,14 @@ footer a{
 .main__handy .uk-grid>*{
     padding: 0;
 }
+
+
+@media(max-width: 768px){
+    .img_card{
+        width: 35%;
+        height: 100px;
+    }
+    .btn__txt{
+        font-size: 9px;
+    }
+}
