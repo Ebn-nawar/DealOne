@@ -213,3 +213,6 @@ footer{
 .main__contact .uk-grid>*{
     padding: 0;
 }
+.main__contact .uk-card-title{
+    font-size: 20px;
+}
