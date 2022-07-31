@@ -8,7 +8,9 @@
     text-transform: none !important;
     scroll-behavior: smooth;
 }
-
+header .uk-grid>*{
+    padding: 10px;
+}
 .img__background{
     background-color: #0E1930;
     background-image: url(../img/bg.png);
@@ -32,23 +34,36 @@ h2{
     font-size: 40px;
     line-height: 60px;
 }
-.icon:first-of-type{
-    padding: 6px;
+
+.pa-icon{
+    width: 55px;
+    height: 55px;
+    margin: 25px auto;
+    border: #000 solid 1px;
     border-radius: 50%;
-    margin: auto;
-    width: 45px;
-    height: 45px;
-    border: 2px solid #000;
 }
 .icon{
-    padding: 6px;
-    border-radius: 50%;
-    margin: auto;
-    width: 45px;
-    height: 45px;
-    border: 2px solid #000;
     background-color: #000;
     color: #fff;
+    font-size: 35px;
+    width: 100%;
+    height: 100%;
+    border: #fff solid 2px;
+    border-radius: 50%;
+    margin: auto;
+}
+.pa-x{
+    border: #000 solid 3px;
+    width: 65px;
+    height: 65px;
+}
+.extra{
+    display: grid;
+    align-items: center;
+    justify-items: center;
+    font-size: 20px;
+    background-color: #E0E0E0 !important;
+    color: #000 !important;
 }
 
 .light{
@@ -62,8 +77,6 @@ h2{
 .uk-card{
     text-align: center;
     border-radius: 10px;
-    /* margin-right: 10px;
-    margin-left: 10px; */
 }
 .main__ .uk-grid{
     margin-right: 50px;
@@ -111,6 +124,7 @@ footer a{
 .button__dark{
     background-color: #0E1930;
     color: #fff;
+    padding: 4px 10px;
 }
 .hide{
     display: none;
@@ -124,4 +138,24 @@ footer a{
 }
 .main__handy .uk-card-body{
     padding: 30px;
+}
+
+.main__survice .uk-grid>* {
+    padding: 0px;
+}
+
+.nav-response{
+    min-width: 200px;
+    list-style: none;
+    padding: 10px;
+}
+
+
+.txt-small{
+    font-size: 13px;
+}
+@media(max-width: 960px){
+    .txt-small{
+        font-size: 10px;
+    }
 }

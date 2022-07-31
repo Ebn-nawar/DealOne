@@ -1,19 +1,23 @@
 /* body style */
-/* body{
+body{
     background-color: #F7F7F7 !important;
-} */
+}
 /*============ start header style ============*/
 /* header__nav style */
-/* nav{
+nav{
     background-color: #0E1930;
-    height: 10vh !important;
-} */
+    min-height: 10vh !important;
+}
 .main__statics .uk-grid>*{
     padding-left: 50px;
     padding-right: 50px;
 }
+.main__stadges .uk-grid>*{
+    padding: 20px;
+}
 .uk-grid{
     margin: 0;
+    padding: 0;
 }
 .uk-navbar-left a {
     color: #FCA311 !important;
@@ -146,7 +150,7 @@ main a:hover{
 .active{
     color: #FCA311!important;
 }
-.main__stadges .uk-grid>*{
+.main .uk-grid>*{
     padding: 0;
 }
 .stadge__circle{
@@ -200,4 +204,8 @@ main a:hover{
 /*============ end main style ============*/
 footer{
     margin: 50px 0 auto;
+}
+
+.main__survice .uk-card{
+    margin: 20px;
 }

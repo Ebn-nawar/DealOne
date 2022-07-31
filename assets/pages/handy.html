@@ -21,17 +21,20 @@
     <!-- Start header section -->
     <header class="img__background">
         <!-- navbar -->
-        <nav class="uk-container uk-margin-auto" uk-navbar>
-            <div class="uk-navbar-left">
+        <nav class="uk-container uk-flex uk-margin-auto uk-flex-wrap">
+            <div class="uk-navbar-left uk-width-1-4">
                 <ul class="uk-navbar-nav">
                     <li><a class="uk-text-bolder" href="#">Servirti</a></li>
                 </ul>
             </div>
-            <div class="uk-navbar-right uk-hidden">
-                <ul class="uk-navbar-nav">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#">Our survice</a></li>
-                    <li><a href="#">About us</a></li>
+            <div class="uk-navbar-right nav-btn uk-hidden@m uk-width-1-2" style="cursor: pointer; justify-content: right;">
+                <span class="uk-margin-small-right" uk-icon="icon: table"></span>
+            </div>
+            <div class="uk-navbar-right nav-main">
+                <ul class="uk-navbar-nav ul-nav">
+                    <li class="li-nav nav-response"><a href="#">Home</a></li>
+                    <li class="li-nav nav-response"><a href="#">Our survice</a></li>
+                    <li class="li-nav nav-response"><a href="#">About us</a></li>
                 </ul>
                 <button class="uk-button uk-button-primary">Contact us</button>
             </div>
