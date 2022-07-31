@@ -159,3 +159,11 @@ footer a{
         font-size: 10px;
     }
 }
+
+.main__shops .uk-grid>*{
+    padding: 0;
+}
+
+.main__handy .uk-grid>*{
+    padding: 0;
+}
