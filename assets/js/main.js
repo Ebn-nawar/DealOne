@@ -63,3 +63,15 @@ sub.onclick = function(e){
         }
     }
 }
+
+// fixed button
+
+let fixBtn = document.getElementById("fixBtn")
+
+    window.onscroll = function(){
+        if (scrollY <= 300) {
+            fixBtn.classList.add("uk-hidden")
+        }else{
+            fixBtn.classList.remove("uk-hidden")
+        }
+    }

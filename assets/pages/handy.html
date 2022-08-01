@@ -24,7 +24,7 @@
         <nav class="uk-container uk-flex uk-margin-auto uk-flex-wrap">
             <div class="uk-navbar-left uk-width-1-4">
                 <ul class="uk-navbar-nav">
-                    <li><a class="uk-text-bolder" href="#">Servirti</a></li>
+                    <li><a class="uk-text-bolder" href="../../index.html">Servirti</a></li>
                 </ul>
             </div>
             <div class="uk-navbar-right nav-btn uk-hidden@m uk-width-1-2" style="cursor: pointer; justify-content: right;">
@@ -32,11 +32,11 @@
             </div>
             <div class="uk-navbar-right nav-main">
                 <ul class="uk-navbar-nav ul-nav">
-                    <li class="li-nav nav-response"><a href="#">Home</a></li>
-                    <li class="li-nav nav-response"><a href="#">Our survice</a></li>
-                    <li class="li-nav nav-response"><a href="#">About us</a></li>
+                    <li class="li-nav nav-response"><a href="../../#">Home</a></li>
+                    <li class="li-nav nav-response"><a href="../../index.html#survice">Our survice</a></li>
+                    <li class="li-nav nav-response"><a href="../../index.html#about">About us</a></li>
                 </ul>
-                <button class="uk-button uk-button-primary">Contact us</button>
+                <button class="uk-button uk-button-primary"><a class="dark" href="../../index.html#contact"> Contact us </a></button>
             </div>
         </nav>
         <!-- main header -->
@@ -457,7 +457,7 @@
             </div>
         </div>
         <!-- guide -->
-        <div class="main__guide">
+        <div id="guide" class="main__guide">
             <div class="uk-container">
                 <div class="uk-flex" style="margin: 50px 0;">
                     <h2 style="align-self: end; opacity: .2;"><i class="fa-brands fa-youtube"></i></h2>
@@ -592,10 +592,10 @@
             </div>
             <div class="footer__link">
                 <h3 class="dark uk-text-bolder">Quick links</h3>
-                <a href="" target="_blank">Home</a>
-                <a href="" target="_blank">Our Services</a>
-                <a href="" target="_blank">Guide Videos</a>
-                <a href="" target="_blank">About Us</a>
+                <a href="../../index.html">Home</a>
+                <a href="../../index.html#survice">Our Services</a>
+                <a href="#guide">Guide Videos</a>
+                <a href="../../index.html#about">About Us</a>
             </div>
             <div class="footer__link">
                 <h3 class="dark uk-text-bolder">Useful Links</h3>
@@ -605,12 +605,21 @@
             </div>
             <div class="footer__link">
                 <h3 class="dark uk-text-bolder">Contact</h3>
-                <a href="" target="_blank">+123 4456 01232</a>
+                <a href="tel:+123 4456 01232" target="_blank">+123 4456 01232</a>
                 <a href="" target="_blank">Giza, Egypt</a>
-                <a href="" target="_blank">Servirti@mail.com</a>
+                <a href="mailto:Servirti@mail.com" target="_blank">Servirti@mail.com</a>
             </div>
         </div>
     </footer>
+    <!-- fixed bottom -->
+    <div id="fixBtn" class="uk-position-fixed uk-hidden" style="right: 5px; bottom: 5px;">
+        <div class="icon">
+            <a href="#">
+                <i class="fa-solid fa-chevron-up"></i>
+            </a>
+        </div>
+    </div>
+    <!-- fixed bottom -->
     <!-- End Footer section -->
     <!-- scripts file -->
     <script src="../js/main.js"></script>
