@@ -528,7 +528,7 @@
     </footer>
     <!-- End Footer section -->
     <!-- fixed bottom -->
-    <div id="fixBtn" class="uk-position-fixed uk-hidden" style="right: 5px; bottom: 5px;">
+    <div id="fixBtnOne" class="uk-position-fixed uk-hidden" style="right: 5px; bottom: 5px;">
         <div class="icon">
             <a href="#">
                 <i class="fa-solid fa-chevron-up"></i>
@@ -542,5 +542,16 @@
     <script src="assets/js/uikit-icons.min.js"></script>
     <script src="assets/js/all.min.js"></script>
     <script src="assets/js/fontawesome.min.js"></script>
+    <script>
+        let fixBtnOne = document.getElementById("fixBtnOne")
+
+        window.onscroll = function(){
+            if (scrollY <= 300) {
+                fixBtnOne.classList.add("uk-hidden")
+            }else{
+                fixBtnOne.classList.remove("uk-hidden")
+            }
+        }
+    </script>
 </body>
 </html>
