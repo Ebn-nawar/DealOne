@@ -66,6 +66,24 @@ header form{
     border-radius: 10px;
 }
 /*  */
+
+@media(min-width: 959px){
+    .header__two{
+        background-image: url(../img/staff3.svg);
+        background-repeat: no-repeat;
+        background-position: right;
+        background-size: 38% 108%;
+    }
+}
+@media(min-width: 960px){
+    .header__two__img{
+        display: none;
+    }
+    .header__two__main{
+        padding-left: 115px !important;
+    }
+
+}
 .num h3{
     font-size: 32px;
 }

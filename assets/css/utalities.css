@@ -162,17 +162,23 @@ footer a{
 
 .main__shops .uk-grid>*{
     padding: 0;
+    padding-right: 10px;
+    padding-left: 10px;
 }
-
+.main__shops .uk-overlay {
+    padding: 20px;
+}
 .main__handy .uk-grid>*{
     padding: 0;
 }
+
 
 
 @media(max-width: 768px){
     .img_card{
         width: 35%;
         height: 100px;
+        object-fit: contain;
     }
     .btn__txt{
         font-size: 9px;
