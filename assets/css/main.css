@@ -104,7 +104,9 @@ header form{
     margin: 30px auto;
 
 }
-
+.main__about__img {
+    margin-right: 10px;
+}
 .main__about__txt h3{
     margin-bottom: 5px;
 }
@@ -113,6 +115,26 @@ header form{
 .stars{
     align-items: center;
     transform: translateY(-8px);
+}
+.swiper{
+    padding: 20px 0 !important;
+}
+@media(max-width:768px ){
+    .swiper__header{
+        flex-wrap: wrap;
+    }
+    .swiper__header h3{
+        font-size: 12px;
+    }
+    .swiper__stars{
+        margin: 20px 0px;
+    }
+    .swiper .uk-card-body {
+        padding: 20px;
+    } 
+    .swiper .uk-card-body>:last-child{
+        font-size: 15px;
+    }
 }
 
 .main__feadback{
