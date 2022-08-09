@@ -68,7 +68,6 @@ header form{
 /*  */
 .header__two{
     min-height: 510px;
-    margin-top: 30px;
 }
 @media(min-width: 959px){
     .header__two{
